@@ -10,7 +10,7 @@ services:
       - ../cassandra/src/main/resources/bigben-schema.cql:/tmp/bigben-schema.cql
 
   bigben:
-    image: sandeepmalik/bigben:1
+    image: valiscope/bigben
     hostname: bigben
     container_name: bigben
     volumes:

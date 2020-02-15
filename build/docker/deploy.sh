@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 ./docker_build.sh
-docker push sandeepmalik/bigben:1
+docker push valiscope/bigben

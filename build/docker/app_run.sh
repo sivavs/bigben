@@ -58,7 +58,7 @@ function start() {
         -Dbigben.log.file=${APP_ROOT}/logs/bigben_app_${app_port}.log \
         -Dbigben.log.config=${APP_ROOT} \
         -Dhazelcast.local.publicAddress=${HOST_IP}:${hz_port}" \
-        --name "${APP_CONTAINER_NAME}_$app_port" sandeepmalik/bigben:1
+        --name "${APP_CONTAINER_NAME}_$app_port" valiscope/bigben
         let i=i+1
     done
     echo "waiting for app servers to boot up"
