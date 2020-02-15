@@ -19,7 +19,7 @@
         <module>app</module>
     </modules>
     <name>BigBen:parent</name>
-    <url>http://walmartlabs.com</url>
+    <url>https://walmartlabs.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
